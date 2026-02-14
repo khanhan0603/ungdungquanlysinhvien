@@ -35,3 +35,9 @@
 ### 1. Clone source code
 ```bash
 git clone https://github.com/khanhan0603/ungdungquanlysinhvien.git
+
+### Google Maps API Key
+
+Vì lý do bảo mật, Google Maps API Key **không được commit lên GitHub**.
+
+Người dùng cần tự tạo API Key và cấu hình trong file AndroidManifest.xml
