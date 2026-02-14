@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Student Manage</string>
+
+    <!--Đăng nhập-->
+    <string name="str_header_login">Login</string>
+    <string name="str_row1_login">Username: </string>
+    <string name="str_row2_login">Password: </string>
+    <string name="str_row3_login">Login</string>
+    <!--Quản lý lớp-->
+    <string name="str_header_type">Class Management</string>
+    <string name="str_row1_type">Class id: </string>
+    <string name="str_row2_type">Class name: </string>
+    <string name="str_btnLuu">Save</string>
+    <string name="str_btnClear">Clear</string>
+    <!--Item danh sách lớp-->
+    <string name="str_row1_item_type">Class id: </string>
+    <string name="str_row2_item_type">Class name: </string>
+    <!--Quản lý sinh viên-->
+    <string name="str_header_student">Student Management</string>
+    <!--Item danh sách sinh viên-->
+    <string name="str_row1_student">Id: </string>
+    <string name="str_row2_student">Fullname: </string>
+    <string name="str_row3_student">Class: </string>
+    <!--Edit thông tin sinh viên-->
+    <string name="str_row1_edit_student">Choose Image</string>
+    <string name="str_row2_edit_student">Id: </string>
+    <string name="str_row3_edit_student">Fullname: </string>
+    <string name="str_row4_edit_student">Mark: </string>
+    <string name="str_row5_edit_student">Hobby: </string>
+    <string name="str_row6_edit_student">Class: </string>
+    <string name="str_btnThoat_edit_student">Exit</string>
+    <!--Menu-->
+    <string name="str_row1_mnu">Class Manage</string>
+    <string name="str_row2_mnu">Student Manage</string>
+    <string name="str_row3_mnu">About Activity</string>
+    <!--About Activity-->
+    <string name="str_header_about">Personal Info</string>
+    <string name="str_row1_about">Student name: </string>
+    <string name="str_row2_about">Class: </string>
+    <string name="str_row3_about">Student id: </string>
+    <string name="str_row4_about">Email: </string>
+    <string name="str_row5_about">Phone: </string>
+    <string name="str_btnDial">Dial</string>
+    <string name="str_btnCall">Call</string>
+    <!--Toast danh sách sinh viên-->
+    <string name="str_tittle_delete">Delete Confirmation</string>
+    <string name="str_message_delete">Are you sure you want to delete the student named: </string>
+    <string name="str_pos_delete">Delete</string>
+    <string name="str_alert_delete">Deleted</string>
+    <string name="str_alert_mess_delete">Deleted </string>
+    <string name="str_alert_mess2_delete"> student.</string>
+    <string name="str_alert_button_delete">Ok</string>
+    <string name="str_negative_delete">Exit</string>
+    <!--Toast cập nhật sinh viên-->
+    <string name="str_toast_update">Updated </string>
+    <string name="str_toast1_update"> row.</string>
+    <!--Toast danh sách lớp-->
+    <string name="str_message_delete_class">Are you sure you want to delete the class: </string>
+    <string name="str_alert_no_delete">Cannot Delete</string>
+    <string name="str_alert_mess_delete_class">This class has </string>
+    <string name="str_alert_mess_delete2_class">Cannot delete</string>
+    <string name="str_alert_mess_delete3_class"> class.</string>
+    <!--Toast thêm lớp-->
+    <string name="str_alert_mess_add_class">Added class with id </string>
+    <!--Toast thêm sinh viên-->
+    <string name="str_alert_mess_add_student">Added student with id </string>
+    <!--Toast đăng nhập không hợp lệ-->
+    <string name="str_alert_mess_login_fail">Error username or password!</string>
+    <string name="title_activity_about">About</string>
+</resources>

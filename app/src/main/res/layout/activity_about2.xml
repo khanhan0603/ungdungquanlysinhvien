@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4ABCA"
+    tools:context=".AboutActivity">
+    <TextView
+        android:id="@+id/tvTieuDe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_header_about"
+        android:textSize="18pt"
+        android:textStyle="bold"
+        android:textColor="#4F1233"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/tvTen"
+        android:layout_width="0pt"
+        android:layout_height="wrap_content"
+        android:text="@string/str_row1_about"
+        android:textSize="9pt"
+        android:textColor="#4F1233"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/edtTen"
+        app:layout_constraintBottom_toBottomOf="@+id/edtTen"
+
+        />
+    <TextView
+        android:id="@+id/edtTen"
+        android:layout_width="0pt"
+        android:layout_height="wrap_content"
+        android:text="Lương Minh Khánh An"
+        android:textSize="9pt"
+        android:textColor="#4F1233"
+        app:layout_constraintStart_toEndOf="@+id/tvTen"
+        app:layout_constraintTop_toBottomOf="@+id/tvTieuDe"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        />
+    <TextView
+        android:id="@+id/tvLop"
+        android:layout_width="0pt"
+        android:layout_height="wrap_content"
+        android:text="@string/str_row2_about"
+        android:textSize="9pt"
+        android:textColor="#4F1233"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/edtLop"
+        app:layout_constraintBottom_toBottomOf="@+id/edtLop"
+
+        />
+    <TextView
+        android:id="@+id/edtLop"
+        android:layout_width="0pt"
+        android:layout_height="wrap_content"
+        android:text="D22_TH12"
+        android:textSize="9pt"
+        android:textColor="#4F1233"
+        app:layout_constraintStart_toEndOf="@+id/tvLop"
+        app:layout_constraintTop_toBottomOf="@+id/edtTen"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        />
+    <TextView
+        android:id="@+id/tvMa"
+        android:layout_width="0pt"
+        android:layout_height="wrap_content"
+        android:text="@string/str_row3_about"
+        android:textSize="9pt"
+        android:textColor="#4F1233"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/edtMa"
+        app:layout_constraintBottom_toBottomOf="@+id/edtMa"
+
+        />
+    <TextView
+        android:id="@+id/edtMa"
+        android:layout_width="0pt"
+        android:layout_height="wrap_content"
+        android:text="DH52200299"
+        android:textSize="9pt"
+        android:textColor="#4F1233"
+        app:layout_constraintStart_toEndOf="@+id/tvMa"
+        app:layout_constraintTop_toBottomOf="@+id/edtLop"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        />
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="0pt"
+        android:layout_height="wrap_content"
+        android:text="@string/str_row4_about"
+        android:textSize="9pt"
+        android:textColor="#4F1233"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/edtEmail"
+        app:layout_constraintBottom_toBottomOf="@+id/edtEmail"
+
+        />
+    <TextView
+        android:id="@+id/edtEmail"
+        android:layout_width="0pt"
+        android:layout_height="wrap_content"
+        android:text="dh52200299@student.stu.edu.vn"
+        android:textSize="9pt"
+        android:textColor="#4F1233"
+        app:layout_constraintStart_toEndOf="@+id/tvEmail"
+        app:layout_constraintTop_toBottomOf="@+id/edtMa"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        />
+    <TextView
+        android:id="@+id/tvSdt"
+        android:layout_width="0pt"
+        android:layout_height="wrap_content"
+        android:text="@string/str_row5_about"
+        android:textSize="9pt"
+        android:textColor="#4F1233"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/edtSdt"
+        app:layout_constraintBottom_toBottomOf="@+id/edtSdt"
+
+        />
+    <TextView
+        android:id="@+id/edtSdt"
+        android:layout_width="0pt"
+        android:layout_height="wrap_content"
+        android:text="0945789199"
+        android:textSize="9pt"
+        android:textColor="#4F1233"
+        app:layout_constraintStart_toEndOf="@+id/tvSdt"
+        app:layout_constraintTop_toBottomOf="@+id/edtEmail"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        />
+    <Button
+        android:id="@+id/btnDial"
+        android:layout_width="0pt"
+        android:layout_height="wrap_content"
+        android:text="@string/str_btnDial"
+        android:textSize="11pt"
+        android:textColor="#E4ABCA"
+        android:backgroundTint="#4F1233"
+
+        app:layout_constraintTop_toBottomOf="@+id/edtSdt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnCall"
+        />
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_width="0pt"
+        android:layout_height="wrap_content"
+        android:text="@string/str_btnCall"
+        android:textSize="11pt"
+        android:textColor="#E4ABCA"
+        android:backgroundTint="#4F1233"
+
+        app:layout_constraintTop_toBottomOf="@+id/edtSdt"
+        app:layout_constraintStart_toEndOf="@+id/btnDial"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="0pt"
+        android:layout_height="0pt"
+        app:layout_constraintTop_toBottomOf="@+id/btnDial"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

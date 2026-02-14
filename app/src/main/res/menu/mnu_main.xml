@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/mnuQuanlyphanloai"
+        android:title="@string/str_row1_mnu"
+        />
+    <item
+        android:id="@+id/mnuQuanlysinhvien"
+        android:title="@string/str_row2_mnu"
+        />
+    <item
+        android:id="@+id/mnuAboutactivity"
+        android:title="@string/str_row3_mnu"
+        />
+</menu>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quản Lý Sinh Viên</string>
+    <!--Đăng nhập-->
+    <string name="str_header_login">Đăng Nhập</string>
+    <string name="str_row1_login">Tên đăng nhập: </string>
+    <string name="str_row2_login">Mật khẩu: </string>
+    <string name="str_row3_login">Đăng Nhập</string>
+    <!--Quản lý lớp-->
+    <string name="str_header_type">Quản Lý Lớp</string>
+    <string name="str_row1_type">Mã lớp: </string>
+    <string name="str_row2_type">Tên lớp: </string>
+    <string name="str_btnLuu">Lưu</string>
+    <string name="str_btnClear">Clear</string>
+    <!--Item danh sách lớp-->
+    <string name="str_row1_item_type">Mã lớp: </string>
+    <string name="str_row2_item_type">Tên lớp: </string>
+    <!--Quản lý sinh viên-->
+    <string name="str_header_student">Quản Lý Sinh Viên</string>
+    <!--Item danh sách sinh viên-->
+    <string name="str_row1_student">Mã: </string>
+    <string name="str_row2_student">Họ tên: </string>
+    <string name="str_row3_student">Lớp: </string>
+    <!--Edit thông tin sinh viên-->
+    <string name="str_row1_edit_student">Chọn Ảnh</string>
+    <string name="str_row2_edit_student">Mã: </string>
+    <string name="str_row3_edit_student">Họ tên: </string>
+    <string name="str_row4_edit_student">Điểm: </string>
+    <string name="str_row5_edit_student">Sở thích: </string>
+    <string name="str_row6_edit_student">Lớp: </string>
+    <string name="str_btnThoat_edit_student">Thoát</string>
+    <!--Menu-->
+    <string name="str_row1_mnu">Quản Lý Lớp</string>
+    <string name="str_row2_mnu">Quản Lý Sinh Viên</string>
+    <string name="str_row3_mnu">Thông tin đồ án</string>
+    <!--About Activity-->
+    <string name="str_header_about">Thông Tin Cá Nhân</string>
+    <string name="str_row1_about">Tên sinh viên: </string>
+    <string name="str_row2_about">Lớp: </string>
+    <string name="str_row3_about">Mã sinh viên: </string>
+    <string name="str_row4_about">Email: </string>
+    <string name="str_row5_about">Số điện thoại: </string>
+    <string name="str_btnDial">Quay số</string>
+    <string name="str_btnCall">Gọi</string>
+    <!--Toast danh sách sinh viên-->
+    <string name="str_tittle_delete">Xác Nhận Xóa</string>
+    <string name="str_message_delete">Bạn có chắc chắn muốn xóa sinh viên tên: </string>
+    <string name="str_pos_delete">Xóa</string>
+    <string name="str_alert_delete">Đã Xóa</string>
+    <string name="str_alert_mess_delete">Đã xóa </string>
+    <string name="str_alert_mess2_delete"> sinh viên.</string>
+    <string name="str_alert_button_delete">Ok</string>
+    <string name="str_negative_delete">Hủy</string>
+    <!--Toast cập nhật sinh viên-->
+    <string name="str_toast_update">Đã cập nhật </string>
+    <string name="str_toast1_update"> dòng.</string>
+    <!--Toast danh sách lớp-->
+    <string name="str_message_delete_class">Bạn có chắc chắn muốn xóa lớp: </string>
+    <string name="str_alert_no_delete">Không Thể Xóa</string>
+    <string name="str_alert_mess_delete_class">Lớp này đang có </string>
+    <string name="str_alert_mess_delete2_class">Không thể xóa!</string>
+    <string name="str_alert_mess_delete3_class"> lớp.</string>
+    <!--Toast thêm lớp-->
+    <string name="str_alert_mess_add_class">Đã thêm lớp có mã là </string>
+    <!--Toast thêm sinh viên-->
+    <string name="str_alert_mess_add_student">Đã thêm sinh viên có mã là </string>
+    <!--Toast đăng nhập không hợp lệ-->
+    <string name="str_alert_mess_login_fail">Sai tài khoản hoặc mật khẩu!</string>
+</resources>
